@@ -47,17 +47,49 @@
         <div class="px-40 flex flex-1 justify-center py-5">
           <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
             <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-white tracking-light text-[32px] font-bold leading-tight min-w-72">Account Dashboard</p></div>
-            <div class="p-4">
-              <div class="flex items-stretch justify-between gap-4 rounded-xl">
-                <div class="flex flex-col gap-1 flex-[2_2_0px]">
-                  <p class="text-white text-base font-bold leading-tight">User Information</p>
-                  <p class="text-[#a393c8] text-sm font-normal leading-normal">Name: Alex Bennett Email: alex.bennett@email.com Member Since: January 15, 2022</p>
-                </div>
-                <div
-                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
-                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuATSuhZB4v77AOqlzn6Ni5esF02THAimF-Cfx_WokKTqx2SWDaeUyUwn4wQuoDBrso_dnE9fLBloeVYkwXWKuPxiNUmnCNLc5sh0Cby3XI2kyEzyd4P2nb6--C-Nzaj9ttvaVDkX1PGtPPwU9Hit-QJf4FvU7mFb_MeBFGJ2wpLTNTb6NTkfzIS_19AE-IFGvSa1-zSXLLbnrngBi9hWVjBAax1gdbdcmWMF7eS5VXy_LE-3J-WuGfNk41ThFTSKlEfY32ppwv1XYqR");'
-                ></div>
-              </div>
+            <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">User Profile</h3>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-white text-base font-medium leading-normal pb-2">Name</p>
+                <input
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-white focus:outline-0 focus:ring-0 border border-[#433465] bg-[#211a32] focus:border-[#433465] h-14 placeholder:text-[#a393c8] p-[15px] text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-white text-base font-medium leading-normal pb-2">Email</p>
+                <input
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-white focus:outline-0 focus:ring-0 border border-[#433465] bg-[#211a32] focus:border-[#433465] h-14 placeholder:text-[#a393c8] p-[15px] text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-white text-base font-medium leading-normal pb-2">Phone</p>
+                <input
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-white focus:outline-0 focus:ring-0 border border-[#433465] bg-[#211a32] focus:border-[#433465] h-14 placeholder:text-[#a393c8] p-[15px] text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-white text-base font-medium leading-normal pb-2">City</p>
+                <input
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-white focus:outline-0 focus:ring-0 border border-[#433465] bg-[#211a32] focus:border-[#433465] h-14 placeholder:text-[#a393c8] p-[15px] text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex px-4 py-3 justify-end">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#6730e8] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Save Changes</span>
+              </button>
             </div>
             <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Order History</h3>
             <div class="px-4 py-3 @container">
@@ -65,96 +97,96 @@
                 <table class="flex-1">
                   <thead>
                     <tr class="bg-[#211a32]">
-                      <th class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-120 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">Order ID</th>
-                      <th class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-240 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">Date</th>
-                      <th class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-360 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">
+                      <th class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-120 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">Order ID</th>
+                      <th class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-240 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">Date</th>
+                      <th class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-360 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">
                         Service Type
                       </th>
-                      <th class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-480 px-4 py-3 text-left text-white w-60 text-sm font-medium leading-normal">Status</th>
-                      <th class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-600 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">Items</th>
-                      <th class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-720 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">Price</th>
+                      <th class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-480 px-4 py-3 text-left text-white w-60 text-sm font-medium leading-normal">Status</th>
+                      <th class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-600 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">Items</th>
+                      <th class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-720 px-4 py-3 text-left text-white w-[400px] text-sm font-medium leading-normal">Price</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr class="border-t border-t-[#433465]">
-                      <td class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-120 h-[72px] px-4 py-2 w-[400px] text-white text-sm font-normal leading-normal">#12345</td>
-                      <td class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-240 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">
-                        2023-08-15
+                      <td class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-120 h-[72px] px-4 py-2 w-[400px] text-white text-sm font-normal leading-normal">#78901</td>
+                      <td class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-240 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">
+                        2023-09-20
                       </td>
-                      <td class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-360 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">
+                      <td class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-360 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">
                         Design + Print
                       </td>
-                      <td class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                      <td class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
                         <button
                           class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#2f2447] text-white text-sm font-medium leading-normal w-full"
                         >
-                          <span class="truncate">Completed</span>
+                          <span class="truncate">Processing</span>
                         </button>
                       </td>
-                      <td class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-600 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">
+                      <td class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-600 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">
                         Custom Figurine x 1
                       </td>
-                      <td class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-720 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">$50</td>
+                      <td class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-720 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">$50</td>
                     </tr>
                     <tr class="border-t border-t-[#433465]">
-                      <td class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-120 h-[72px] px-4 py-2 w-[400px] text-white text-sm font-normal leading-normal">#67890</td>
-                      <td class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-240 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">
-                        2023-07-20
+                      <td class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-120 h-[72px] px-4 py-2 w-[400px] text-white text-sm font-normal leading-normal">#23456</td>
+                      <td class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-240 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">
+                        2023-08-10
                       </td>
-                      <td class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-360 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">
+                      <td class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-360 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">
                         Design Only
                       </td>
-                      <td class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                      <td class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
                         <button
                           class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#2f2447] text-white text-sm font-medium leading-normal w-full"
                         >
                           <span class="truncate">In Progress</span>
                         </button>
                       </td>
-                      <td class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-600 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">
+                      <td class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-600 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">
                         Architectural Model x 1
                       </td>
-                      <td class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-720 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">$100</td>
+                      <td class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-720 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">$100</td>
                     </tr>
                     <tr class="border-t border-t-[#433465]">
-                      <td class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-120 h-[72px] px-4 py-2 w-[400px] text-white text-sm font-normal leading-normal">#11223</td>
-                      <td class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-240 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">
-                        2023-06-05
+                      <td class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-120 h-[72px] px-4 py-2 w-[400px] text-white text-sm font-normal leading-normal">#90123</td>
+                      <td class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-240 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">
+                        2023-07-01
                       </td>
-                      <td class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-360 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">
+                      <td class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-360 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">
                         Print Only
                       </td>
-                      <td class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                      <td class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-480 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
                         <button
                           class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#2f2447] text-white text-sm font-medium leading-normal w-full"
                         >
                           <span class="truncate">Shipped</span>
                         </button>
                       </td>
-                      <td class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-600 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">
+                      <td class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-600 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">
                         Prototype Parts x 3
                       </td>
-                      <td class="table-702591f9-6a99-46d7-a100-4db85705aeeb-column-720 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">$75</td>
+                      <td class="table-ed61ae22-666c-4969-b301-a74fee065a52-column-720 h-[72px] px-4 py-2 w-[400px] text-[#a393c8] text-sm font-normal leading-normal">$75</td>
                     </tr>
                   </tbody>
                 </table>
               </div>
               <style>
-                          @container(max-width:120px){.table-702591f9-6a99-46d7-a100-4db85705aeeb-column-120{display: none;}}
-                @container(max-width:240px){.table-702591f9-6a99-46d7-a100-4db85705aeeb-column-240{display: none;}}
-                @container(max-width:360px){.table-702591f9-6a99-46d7-a100-4db85705aeeb-column-360{display: none;}}
-                @container(max-width:480px){.table-702591f9-6a99-46d7-a100-4db85705aeeb-column-480{display: none;}}
-                @container(max-width:600px){.table-702591f9-6a99-46d7-a100-4db85705aeeb-column-600{display: none;}}
-                @container(max-width:720px){.table-702591f9-6a99-46d7-a100-4db85705aeeb-column-720{display: none;}}
+                          @container(max-width:120px){.table-ed61ae22-666c-4969-b301-a74fee065a52-column-120{display: none;}}
+                @container(max-width:240px){.table-ed61ae22-666c-4969-b301-a74fee065a52-column-240{display: none;}}
+                @container(max-width:360px){.table-ed61ae22-666c-4969-b301-a74fee065a52-column-360{display: none;}}
+                @container(max-width:480px){.table-ed61ae22-666c-4969-b301-a74fee065a52-column-480{display: none;}}
+                @container(max-width:600px){.table-ed61ae22-666c-4969-b301-a74fee065a52-column-600{display: none;}}
+                @container(max-width:720px){.table-ed61ae22-666c-4969-b301-a74fee065a52-column-720{display: none;}}
               </style>
             </div>
             <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Order Details</h3>
             <div class="p-4">
               <div class="flex items-stretch justify-between gap-4 rounded-xl">
                 <div class="flex flex-col gap-1 flex-[2_2_0px]">
-                  <p class="text-white text-base font-bold leading-tight">Order #12345</p>
+                  <p class="text-white text-base font-bold leading-tight">Order #78901</p>
                   <p class="text-[#a393c8] text-sm font-normal leading-normal">
-                    Date: 2023-08-15 Service Type: Design + Print Status: Completed Items: Custom Figurine x 1 Price: $50
+                    Date: 2023-09-20 Service Type: Design + Print Status: Processing Estimated Completion: 2023-10-05 Items: Custom Figurine x 1 Price: $50
                   </p>
                 </div>
                 <div
@@ -166,17 +198,23 @@
             <div class="p-4 grid grid-cols-[20%_1fr] gap-x-6">
               <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#433465] py-5">
                 <p class="text-[#a393c8] text-sm font-normal leading-normal">Customer Information</p>
-                <p class="text-white text-sm font-normal leading-normal">Name: Alex Bennett Email: alex.bennett@email.com Phone: (555) 123-4567 City: Anytown</p>
+                <p class="text-white text-sm font-normal leading-normal">Name: Liam Harper Email: liam.harper@email.com Phone: (555) 123-4567 City: Metropolis</p>
               </div>
               <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#433465] py-5">
                 <p class="text-[#a393c8] text-sm font-normal leading-normal">Project Specifications</p>
                 <p class="text-white text-sm font-normal leading-normal">
-                  Description: Custom figurine of a character from a popular video game. Quantity: 1 Material: PLA Deadline: 2023-08-10
+                  Description: Custom figurine of a character from a popular video game. Quantity: 1 Material: PLA Deadline: 2023-10-05
                 </p>
               </div>
               <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#433465] py-5">
                 <p class="text-[#a393c8] text-sm font-normal leading-normal">File Upload/Download Tracking</p>
-                <p class="text-white text-sm font-normal leading-normal">Uploaded: 2023-08-01 Downloaded: 2023-08-15</p>
+                <p class="text-white text-sm font-normal leading-normal">Uploaded: 2023-09-15 Downloaded: N/A</p>
+              </div>
+              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#433465] py-5">
+                <p class="text-[#a393c8] text-sm font-normal leading-normal">Order Timeline</p>
+                <p class="text-white text-sm font-normal leading-normal">
+                  2023-09-20: Order placed 2023-09-22: Design phase started 2023-09-28: Design review 2023-10-01: Printing started
+                </p>
               </div>
             </div>
           </div>
